@@ -1,0 +1,13 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+span{
+    margin: 20px;
+}
+
+.Purchases{
+    width: 400px;
+    background: aqua;
+}
