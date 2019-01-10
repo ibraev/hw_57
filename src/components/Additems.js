@@ -1,15 +1,11 @@
 import React from 'react';
-import '../App.css';
 
-const Additems = (props) => {
-    return(
-        props.foods.map((fill, key) => {
-            return(
-                <div className='foods' key={key}>
+const Additems = () => {
+    return (
+        <div className='Form-items'>
 
-                </div>
-            )}
-        ))
-
+        </div>
+    );
 };
+
 export default Additems;
