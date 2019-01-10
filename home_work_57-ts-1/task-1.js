@@ -24,21 +24,25 @@ const newTasks = [];
 
 
 tasks.map((task => {
+
     if (task.category === 'Frontend') {
         front.push(task.timeSpent);
         objects.Frontend++
     }
+
     if (task.type === 'bug') {
         typeBugs.push(task.timeSpent)
     }
+
     if (task.title.indexOf('UI') !== -1) {
         findWords.push(task)
     }
     if (task.category === 'Backend') {
         objects.Backend++
     }
+
     if (task.timeSpent > 4) {
-        let tasksObject = {
+        const tasksObject = {
             title: task.title,
             category: task.category,
         };
