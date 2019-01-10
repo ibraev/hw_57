@@ -5,9 +5,18 @@
 
 span{
     margin: 20px;
+
 }
 
 .Purchases{
     width: 400px;
     background: aqua;
 }
+
+.total-spent{
+    width: 400px;
+    border-top: 1px solid black;
+    padding: 8px 0;
+    margin: 10px 0;
+}
+

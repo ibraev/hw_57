@@ -71,8 +71,9 @@ class App extends Component {
                   keys={this.state.purchases}
                   remove={this.remove}/>
 
-              <div className="total-spent"><p>Total spent</p>
-                  <p>{this.state.total} KGS</p></div>
+              <div className="total-spent">
+                  <span>Total spent</span>
+                  <span>{this.state.total} KGS</span></div>
           </div>
 
 
